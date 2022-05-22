@@ -35,4 +35,8 @@
 		<ProjectReference Include="..\Blockchain-demo.Shared\Blockchain-demo.Shared.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="wwwroot\" />
+	</ItemGroup>
+
 </Project>
