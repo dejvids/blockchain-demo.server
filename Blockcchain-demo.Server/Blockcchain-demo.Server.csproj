@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>Blockcchain_demo.Server</RootNamespace>
+		<UserSecretsId>21dcc0a1-f7f2-4a02-a07b-0befddd782e0</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="IMongoClientFactory.cs" />
+		<Compile Remove="InvalidConfigurationException.cs" />
+		<Compile Remove="InvalidCredentialsException.cs" />
+		<Compile Remove="InvalidUserException.cs" />
+		<Compile Remove="ITokenService.cs" />
+		<Compile Remove="ITransactionRepository.cs" />
+		<Compile Remove="ITransactionService.cs" />
+		<Compile Remove="IUserService.cs" />
+		<Compile Remove="StaticTransactionRepository.cs" />
+		<Compile Remove="TokenService.cs" />
+		<Compile Remove="TransactionRequest.cs" />
+		<Compile Remove="TransactionService.cs" />
+		<Compile Remove="UserCommands.cs" />
+		<Compile Remove="UserService.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.5" />
+		<PackageReference Include="MongoDB.Bson" Version="2.15.1" />
+		<PackageReference Include="MongoDB.Driver" Version="2.15.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Blockchain-demo.Modules.Transactions.Api\Blockchain-demo.Modules.Transactions.Api.csproj" />
+		<ProjectReference Include="..\Blockchain-demo.Modules.Users.Api\Blockchain-demo.Modules.Users.Api.csproj" />
+		<ProjectReference Include="..\Blockchain-demo.Shared\Blockchain-demo.Shared.csproj" />
+	</ItemGroup>
+
+</Project>

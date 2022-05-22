@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Blockchain_demo.Modules.Users</RootNamespace>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blockchain-demo.Modules.Users.Core\Blockchain-demo.Modules.Users.Core.csproj" />
+  </ItemGroup>
+
+</Project>

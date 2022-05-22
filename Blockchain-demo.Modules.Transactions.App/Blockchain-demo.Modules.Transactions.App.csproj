@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Blockchain_demo.Modules.Transactions.App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blockchain-demo.Modules.Transactions.Core\Blockchain-demo.Modules.Transactions.Core.csproj" />
+  </ItemGroup>
+
+</Project>

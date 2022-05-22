@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockcchain-demo.Server", "Blockcchain-demo.Server\Blockcchain-demo.Server.csproj", "{A741C62A-29C8-4BC9-AE55-4EE300224375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{FEAE03B8-8843-4194-B8D4-3DD3153F7280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{712F00C1-9B9E-4E00-83CF-59A3B700293F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Users.App", "Blockchain-demo.Modules.Users\Blockchain-demo.Modules.Users.App.csproj", "{29CD6D64-064E-4ECA-9401-C2E776A4C3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Shared", "Blockchain-demo.Shared\Blockchain-demo.Shared.csproj", "{A833BA60-7D71-4FCA-9F71-9A83791E9387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Users.Infrastructure", "Blockchain-demo.Modules.Users.Infrastructure\Blockchain-demo.Modules.Users.Infrastructure.csproj", "{28DBC81E-EC5F-4F1C-9D08-F3469B768DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Users.Core", "Blockchain-demo.Modules.Users.Core\Blockchain-demo.Modules.Users.Core.csproj", "{31E3CC29-8E5F-4D59-A0BA-21F06C8D334C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Users.Api", "Blockchain-demo.Modules.Users.Api\Blockchain-demo.Modules.Users.Api.csproj", "{2380511C-F4CE-4B4E-B668-AA593695181F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transactions", "Transactions", "{383E93C8-B943-4518-B0C4-60CF27530D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Transactions.Core", "Blockchain-demo.Modules.Transactions.Core\Blockchain-demo.Modules.Transactions.Core.csproj", "{CA3388D2-0EA2-45BF-B959-35F3F0E3EE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Transactions.App", "Blockchain-demo.Modules.Transactions.App\Blockchain-demo.Modules.Transactions.App.csproj", "{B89B149A-8262-480F-9366-83D2C3EAD548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Transactions.Infrastructure", "Blockchain-demo.Modules.Transactions.Infrastructure\Blockchain-demo.Modules.Transactions.Infrastructure.csproj", "{F0BD8D27-768D-4071-92F5-5CC025E873B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain-demo.Modules.Transactions.Api", "Blockchain-demo.Modules.Transactions.Api\Blockchain-demo.Modules.Transactions.Api.csproj", "{85F6A30C-01D1-46F1-8F43-7ECF7C2FBDC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A741C62A-29C8-4BC9-AE55-4EE300224375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A741C62A-29C8-4BC9-AE55-4EE300224375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A741C62A-29C8-4BC9-AE55-4EE300224375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A741C62A-29C8-4BC9-AE55-4EE300224375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CD6D64-064E-4ECA-9401-C2E776A4C3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CD6D64-064E-4ECA-9401-C2E776A4C3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CD6D64-064E-4ECA-9401-C2E776A4C3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CD6D64-064E-4ECA-9401-C2E776A4C3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A833BA60-7D71-4FCA-9F71-9A83791E9387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A833BA60-7D71-4FCA-9F71-9A83791E9387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A833BA60-7D71-4FCA-9F71-9A83791E9387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A833BA60-7D71-4FCA-9F71-9A83791E9387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DBC81E-EC5F-4F1C-9D08-F3469B768DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DBC81E-EC5F-4F1C-9D08-F3469B768DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DBC81E-EC5F-4F1C-9D08-F3469B768DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DBC81E-EC5F-4F1C-9D08-F3469B768DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E3CC29-8E5F-4D59-A0BA-21F06C8D334C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E3CC29-8E5F-4D59-A0BA-21F06C8D334C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E3CC29-8E5F-4D59-A0BA-21F06C8D334C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E3CC29-8E5F-4D59-A0BA-21F06C8D334C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2380511C-F4CE-4B4E-B668-AA593695181F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2380511C-F4CE-4B4E-B668-AA593695181F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2380511C-F4CE-4B4E-B668-AA593695181F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2380511C-F4CE-4B4E-B668-AA593695181F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3388D2-0EA2-45BF-B959-35F3F0E3EE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3388D2-0EA2-45BF-B959-35F3F0E3EE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3388D2-0EA2-45BF-B959-35F3F0E3EE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3388D2-0EA2-45BF-B959-35F3F0E3EE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89B149A-8262-480F-9366-83D2C3EAD548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89B149A-8262-480F-9366-83D2C3EAD548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89B149A-8262-480F-9366-83D2C3EAD548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89B149A-8262-480F-9366-83D2C3EAD548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BD8D27-768D-4071-92F5-5CC025E873B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BD8D27-768D-4071-92F5-5CC025E873B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BD8D27-768D-4071-92F5-5CC025E873B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BD8D27-768D-4071-92F5-5CC025E873B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F6A30C-01D1-46F1-8F43-7ECF7C2FBDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F6A30C-01D1-46F1-8F43-7ECF7C2FBDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F6A30C-01D1-46F1-8F43-7ECF7C2FBDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F6A30C-01D1-46F1-8F43-7ECF7C2FBDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{712F00C1-9B9E-4E00-83CF-59A3B700293F} = {FEAE03B8-8843-4194-B8D4-3DD3153F7280}
+		{29CD6D64-064E-4ECA-9401-C2E776A4C3C0} = {712F00C1-9B9E-4E00-83CF-59A3B700293F}
+		{28DBC81E-EC5F-4F1C-9D08-F3469B768DC6} = {712F00C1-9B9E-4E00-83CF-59A3B700293F}
+		{31E3CC29-8E5F-4D59-A0BA-21F06C8D334C} = {712F00C1-9B9E-4E00-83CF-59A3B700293F}
+		{2380511C-F4CE-4B4E-B668-AA593695181F} = {712F00C1-9B9E-4E00-83CF-59A3B700293F}
+		{383E93C8-B943-4518-B0C4-60CF27530D7C} = {FEAE03B8-8843-4194-B8D4-3DD3153F7280}
+		{CA3388D2-0EA2-45BF-B959-35F3F0E3EE61} = {383E93C8-B943-4518-B0C4-60CF27530D7C}
+		{B89B149A-8262-480F-9366-83D2C3EAD548} = {383E93C8-B943-4518-B0C4-60CF27530D7C}
+		{F0BD8D27-768D-4071-92F5-5CC025E873B2} = {383E93C8-B943-4518-B0C4-60CF27530D7C}
+		{85F6A30C-01D1-46F1-8F43-7ECF7C2FBDC0} = {383E93C8-B943-4518-B0C4-60CF27530D7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D3EE831-CAA9-4102-B46A-F557E9EBFD58}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+@baseurl = http://localhost:5099/
+POST http://localhost:5099/user/login HTTP/1.1 Content-Type: application/json
+
+GET

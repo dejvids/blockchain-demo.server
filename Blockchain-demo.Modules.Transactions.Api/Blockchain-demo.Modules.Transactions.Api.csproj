@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>Blockchain_demo.Modules.Transactions.Api</RootNamespace>
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Blockchain-demo.Modules.Transactions.Infrastructure\Blockchain-demo.Modules.Transactions.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

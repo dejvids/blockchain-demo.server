@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>Blockchain_demo.Modules.Users.Api</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Blockchain-demo.Modules.Users.Infrastructure\Blockchain-demo.Modules.Users.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>
